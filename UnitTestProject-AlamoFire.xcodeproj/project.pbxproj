@@ -15,6 +15,9 @@
 		C04EF9761D4796CE00421A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04EF9751D4796CE00421A5D /* Assets.xcassets */; };
 		C04EF9791D4796CE00421A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04EF9771D4796CE00421A5D /* LaunchScreen.storyboard */; };
 		C04EF9841D4796CE00421A5D /* UnitTestProject_AlamoFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04EF9831D4796CE00421A5D /* UnitTestProject_AlamoFireTests.swift */; };
+		C04EF98F1D47A30800421A5D /* NetworkMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04EF98E1D47A30800421A5D /* NetworkMananger.swift */; };
+		C04EF9911D47B60B00421A5D /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04EF9901D47B60B00421A5D /* Weather.swift */; };
+		C04EF9931D47BB0800421A5D /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04EF9921D47BB0800421A5D /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		C04EF97F1D4796CE00421A5D /* UnitTestProject-AlamoFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTestProject-AlamoFireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04EF9831D4796CE00421A5D /* UnitTestProject_AlamoFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestProject_AlamoFireTests.swift; sourceTree = "<group>"; };
 		C04EF9851D4796CE00421A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04EF98E1D47A30800421A5D /* NetworkMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMananger.swift; sourceTree = "<group>"; };
+		C04EF9901D47B60B00421A5D /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C04EF9921D47BB0800421A5D /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		D63AE5C37B879B21D00BE3C9 /* Pods-UnitTestProject-AlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestProject-AlamoFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestProject-AlamoFire/Pods-UnitTestProject-AlamoFire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				C04EF96E1D4796CE00421A5D /* AppDelegate.swift */,
+				C04EF98E1D47A30800421A5D /* NetworkMananger.swift */,
+				C04EF9921D47BB0800421A5D /* DateFormatter.swift */,
+				C04EF9901D47B60B00421A5D /* Weather.swift */,
 				C04EF9701D4796CE00421A5D /* ViewController.swift */,
 				C04EF9721D4796CE00421A5D /* Main.storyboard */,
 				C04EF9751D4796CE00421A5D /* Assets.xcassets */,
@@ -330,8 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04EF9911D47B60B00421A5D /* Weather.swift in Sources */,
+				C04EF98F1D47A30800421A5D /* NetworkMananger.swift in Sources */,
 				C04EF9711D4796CE00421A5D /* ViewController.swift in Sources */,
 				C04EF96F1D4796CE00421A5D /* AppDelegate.swift in Sources */,
+				C04EF9931D47BB0800421A5D /* DateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

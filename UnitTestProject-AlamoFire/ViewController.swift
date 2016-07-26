@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let networkManager = NetworkManager.sharedInstance
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        networkManager.getWeatherData("35.68333", lon: "145.68333", completion: { (result) in
+        } )
     }
 
     override func didReceiveMemoryWarning() {

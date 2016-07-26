@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let dateFormatter = DateFormatter.sharedInstance
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let dateString = "2016-07-26T15:19:56+00:00"
+        
+//        let dateString = "April/2016/13"
+        let myDate = dateFormatter.getDateFromFormat("yyyy-MM-dd'T'HH:mm:ssZ", string: dateString)
         return true
     }
 
